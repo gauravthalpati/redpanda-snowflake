@@ -24,6 +24,6 @@ sh produce_messages.sh
 
 
 Step 3:
-Open the Snowflake streamlit dashboard and view the dashboards in real-time. You can refresh it to see the updates in real time. 
-Once the producer script is completed, you will see the final visualizations in the dashboard
+Open the Snowflake Streamlit dashboard and view the dashboards in real time. You can refresh it to see the updates in real-time. 
+Once the producer script is completed, you will see the final visualizations in the dashboard.
 
