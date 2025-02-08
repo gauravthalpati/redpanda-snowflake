@@ -36,7 +36,7 @@ docker exec -it redpanda-0 /bin/bash
 ```
 
 Execute the producer script that POSTs ad impressions and clicks for 5 different ads every 5 seconds. 
-The script will show the number of messages posted every 5 seconds and will stop after sending a total of 500 messages.
+The script will stop after sending a total of 500 messages.
 ```bash
 cd /tmp/campaign_analytics
 sh produce_messages.sh
