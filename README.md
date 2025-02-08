@@ -8,7 +8,7 @@ In your terminal, open the bash shell and start the Redpanda Connect stream by e
 
 ```docker exec -it redpanda-0 /bin/bash```
 
-```
+```bash
 cd /tmp/campaign_analytics
 rpk connect streams http_sf_stream.yaml
 ```
