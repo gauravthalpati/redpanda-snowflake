@@ -6,11 +6,12 @@ To test the application, follow the below steps:
 Step 1:
 In your terminal, open the bash shell and start the Redpanda Connect stream by executing the below commands:
 
-docker exec -it redpanda-0 /bin/bash
+```docker exec -it redpanda-0 /bin/bash```
 
+```
 cd /tmp/campaign_analytics
-
 rpk connect streams http_sf_stream.yaml
+```
 
 
 Step 2:
