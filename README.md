@@ -10,7 +10,7 @@ To start the containers, execute the below command from your terminal.
 docker compose up -d
 ```
 
-This will start your Redpanda cluster, and you can browse the console using [this link](localhost:8080/overview)
+This will start your Redpanda cluster, and you can browse the console using [this link](https://localhost:8080/overview)
 
 
 ### Step 2: Setup Redpanda Connect, Snowflake, and the Snowflake Streamlit App
