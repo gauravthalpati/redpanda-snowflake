@@ -11,17 +11,17 @@ st.write(
 # Get the current credentials
 session = get_active_session()
   
-# Calculate the sum of Ad impressions 
+# Calculate the sum of ad impressions 
 impressions_data = session.sql("select AD_ID,SUM(AD_IMPRESSIONS) AS TOTAL_IMPRESSIONS from CAMPAIGN_ANALYTICS.ENGAGEMENT_METRICS.AD_RAW_DATA group by AD_ID")
 
-# Execute the query and convert it into a Pandas dataframe
+# Execute the query and convert it into a pandas Dataframe
 queried_impressions_data = impressions_data.to_pandas()
 
 
-# Calculate the sum of Ad clicks 
+# Calculate the sum of ad clicks 
 clicks_data = session.sql("select AD_ID,SUM(AD_CLICKS) AS TOTAL_CLICKS from CAMPAIGN_ANALYTICS.ENGAGEMENT_METRICS.AD_RAW_DATA group by AD_ID")
 
-# Execute the query and convert it into a Pandas dataframe
+# Execute the query and convert it into a pandas Dataframe
 queried_clicks_data = clicks_data.to_pandas()
 
 a, b = st.columns(2)
