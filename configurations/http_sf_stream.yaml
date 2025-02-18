@@ -12,7 +12,7 @@ input:
 output:
   label: "sf_config"
   snowflake_streaming:
-    account: "<Snowflake Account>"  #Update with your Snowflake account in <orgname>-<account_name> format
+    account: "<Snowflake Account>"  # Update with your Snowflake account in <orgname>-<account_name> format
     user: "GT01"
     role: "ACCOUNTADMIN"
     database: "CAMPAIGN_ANALYTICS"
@@ -20,7 +20,7 @@ output:
     table: "AD_RAW_DATA"
     private_key_file: "./rsa_key.p8"
     private_key_pass: ""
-    #mapping: ""
+    # mapping: ""
     init_statement: |
       CREATE TABLE IF NOT EXISTS AD_RAW_DATA ( AD_ID NUMBER, AD_IMPRESSIONS NUMBER, AD_CLICKS NUMBER, AD_CONVERSIONS NUMBER );
     schema_evolution:
